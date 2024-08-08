@@ -5,13 +5,13 @@ import './style.css'
 // if(import.meta.hot){
 //   //仅在开发模式下 也只会在。生产模式下会被删除代码优化
 //   import.meta.hot.accept((mod)=>{mod.render()})
-  
+
 // }
 
 export const render = () => {
   const app = document.querySelector<HTMLDivElement>('#app')!
   app.innerHTML = `
     <h1>Hello Vite!</h1>
-    <p target="_blank">This is hmr test 1</p>
+    <p target="_blank">This is hmr test</p>
   `
 }
